@@ -3,6 +3,6 @@ moar
 
 123 123
 
-really long long long long long line
+really long short <del>long</del> long long line
 
 :bowtie:
