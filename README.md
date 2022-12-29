@@ -10,4 +10,21 @@ really long1 long3 long2 long5 line
 <pre>
     test
               test
+                test
 </pre>
+
+# Hello
+
+Some *emphasis*, **importance**, and `code`.
+
+test
+
+---
+
+```javascript
+console.log('!');
+```
+
+* foo
+* bar
+* baz
