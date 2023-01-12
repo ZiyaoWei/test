@@ -27,4 +27,4 @@ console.log('!');
 
 * foo
 * bar
-* CI, now stacking
+* CI, stacking
