@@ -25,7 +25,7 @@ test
 console.log('!');
 ```
 
-* foo
+** foo
 * bar
 * Merge, conflict
 * No conflict
