@@ -28,3 +28,4 @@ console.log('!');
 * foo
 * bar
 * Merge, stacking
+no conflict
