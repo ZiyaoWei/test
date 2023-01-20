@@ -28,4 +28,4 @@ console.log('!');
 * foo
 * bar
 * Merge, conflict
-* No conflict
+* maybe
