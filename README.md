@@ -27,4 +27,4 @@ console.log('!');
 
 * foo
 * bar
-* Merge, stacking
+* Merge, conflict
