@@ -16,4 +16,4 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: coin flip
-        run: exit $(( RANDOM % 2 ))
+        run: exit $(( RANDOM % 10 / 9 ))
