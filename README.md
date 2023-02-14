@@ -29,4 +29,3 @@ console.log('!');
 * bar
 * Merge, conflict
 * No conflict
-tests
