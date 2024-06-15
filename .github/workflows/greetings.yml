@@ -1,16 +1,19 @@
 name: Testing
 
-on: [pull_request_target, issues]
+on:
+  push:
+    branches:
+      - '*'
+      - '!refs/tags/.*'
+    tags-ignore:
+      - '*'
+  pull_request:
+    branches:
+      - '*'
 
 jobs:
   greeting:
     runs-on: ubuntu-latest
-    permissions:
-      issues: write
-      pull-requests: write
     steps:
-    - uses: actions/first-interaction@v1
-      with:
-        repo-token: ${{ secrets.GITHUB_TOKEN }}
-        issue-message: "Message that will be displayed on users' first issue and permissions?"
-        pr-message: "Message that will be displayed on users' first pull request"
+      - name: coin flip
+        run: exit $(( RANDOM % 2 ))
